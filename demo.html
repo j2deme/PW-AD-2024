@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera página</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #95caff;
+      }
+
+      h1 {
+        color: #002851;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="miTitulo">Jaime Jesús Delgado Meraz</h1>
+    <p>
+      Cualquier cosa va dentro del párrafo. En serio, literalmente cualquier
+      cosa.
+    </p>
+    <script>
+      document
+        .getElementById("miTitulo")
+        .addEventListener("click", function () {
+          this.style.color = "white";
+        });
+    </script>
+  </body>
+</html>
