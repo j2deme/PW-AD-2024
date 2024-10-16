@@ -49,5 +49,84 @@
         </tr>
       </tbody>
     </table>
+
+    <h1>Audio y video</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Ejemplo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>MP3</td>
+          <td>
+            <audio src="assets/t-rex-roar.mp3" controls>
+              El navegador no soporta la reproducción de audio.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Video con src</td>
+          <td>
+            <video src="assets/flower.webm" controls width="250">
+              No soportado
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td>Video on srcset</td>
+          <td>
+            <video controls width="250">
+              <source src="assets/flower.webm" />
+              <source src="assets/flower.mp4" />
+
+              No soportado
+            </video>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      fill="green"
+      viewBox="0 0 256 256"
+    >
+      <path
+        d="M128,16a96.11,96.11,0,0,0-96,96c0,24,12.56,55.06,33.61,83,21.18,28.15,44.5,45,62.39,45s41.21-16.81,62.39-45c21.05-28,33.61-59,33.61-83A96.11,96.11,0,0,0,128,16Zm49.61,169.42C160.24,208.49,140.31,224,128,224s-32.24-15.51-49.61-38.58C59.65,160.5,48,132.37,48,112a80,80,0,0,1,160,0C208,132.37,196.35,160.5,177.61,185.42ZM120,136A40,40,0,0,0,80,96a16,16,0,0,0-16,16,40,40,0,0,0,40,40A16,16,0,0,0,120,136ZM80,112a24,24,0,0,1,24,24h0A24,24,0,0,1,80,112Zm96-16a40,40,0,0,0-40,40,16,16,0,0,0,16,16,40,40,0,0,0,40-40A16,16,0,0,0,176,96Zm-24,40a24,24,0,0,1,24-24A24,24,0,0,1,152,136Zm0,48a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h32A8,8,0,0,1,152,184Z"
+      ></path>
+    </svg>
+
+    <hr />
+
+    <iframe
+      width="250"
+      height="160"
+      src="https://www.youtube.com/embed/GKnQGP67Xd0?si=reNXOZxUijIgVnec"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <iframe src="tablas.html" frameborder="0" width="600" height="400"></iframe>
+
+    <br />
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29595.046876722543!2d-99.0091189043701!3d21.996713305498485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1729103042771!5m2!1ses-419!2smx"
+      width="400"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
   </body>
 </html>
