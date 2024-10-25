@@ -1,0 +1,37 @@
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #1000ff;
+}
+
+.verde {
+  background-color: #00ff22;
+  color: #000;
+}
+
+h6.verde {
+  background-color: #80ff00;
+}
+
+#sections {
+  background-color: hsl(20, 10%, 10%);
+  color: hsl(24, 24%, 96%);
+}
+
+[type="text"] {
+  border: 2px solid #8000ff;
+}
+
+input[type] {
+  background-color: rgb(236, 236, 4);
+}
+
+input[type="text"]:focus {
+  background-color: #ff80c0;
+}
+
+p::first-line {
+  font-family: monospace;
+}
