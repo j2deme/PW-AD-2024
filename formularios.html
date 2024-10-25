@@ -8,7 +8,8 @@
   <body>
     <h1>Formularios</h1>
     <h2>Formulario con GET</h2>
-    <form action="procesa.php" method="GET">
+    <form action="formularios.html" method="GET">
+      <label for="nombre">Nombre</label>
       <input
         type="text"
         name="nombre"
@@ -30,29 +31,77 @@
         placeholder="Apellido materno"
         required
       />
+      <input type="hidden" name="folio" value="Nrn2cr234ui" />
+      <div>
+        <label for="colores"> Colores </label>
+        <select name="colores" id="colores">
+          <optgroup label="Colores primarios">
+            <option value="rojo">Rojo</option>
+            <option value="azul" selected>Azul</option>
+            <option value="amarillo">Amarillo</option>
+          </optgroup>
+          <optgroup label="Colores secundarios">
+            <option value="verde">Verde</option>
+            <option value="naranja">Naranja</option>
+            <option value="violeta">Violeta</option>
+          </optgroup>
+        </select>
+      </div>
+      <meter value="0.4" min="0" max="1">50%</meter>
+      <progress value="50" max="100">75%</progress>
+      <div>
+        <button type="submit">Guardar</button>
+        <button type="reset">Limpiar</button>
+        <button type="button">Inútil</button>
+      </div>
     </form>
 
     <h2>Formulario con POST</h2>
-    <input
-      type="text"
-      name="nombre"
-      id="nombre"
-      placeholder="Nombre(s)"
-      required
-    />
-    <input
-      type="text"
-      name="apellido_paterno"
-      id="apellido_paterno"
-      placeholder="Apellido paterno"
-      required
-    />
-    <input
-      type="text"
-      name="apellido_materno"
-      id="apellido_materno"
-      placeholder="Apellido materno"
-      required
-    />
+    <form action="procesa.php" method="POST">
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        placeholder="Nombre(s)"
+        required
+      />
+      <input
+        type="text"
+        name="apellido_paterno"
+        id="apellido_paterno"
+        placeholder="Apellido paterno"
+        required
+      />
+      <input
+        type="text"
+        name="apellido_materno"
+        id="apellido_materno"
+        placeholder="Apellido materno"
+        required
+      />
+      <input type="hidden" name="folio" value="Nrn2cr234ui" />
+      <div>
+        <label for="colores"> Colores </label>
+        <select name="colores" id="colores">
+          <optgroup label="Colores primarios">
+            <option value="rojo">Rojo</option>
+            <option value="azul" selected>Azul</option>
+            <option value="amarillo">Amarillo</option>
+          </optgroup>
+          <optgroup label="Colores secundarios">
+            <option value="verde">Verde</option>
+            <option value="naranja">Naranja</option>
+            <option value="violeta">Violeta</option>
+          </optgroup>
+        </select>
+      </div>
+      <meter value="0.4" min="0" max="1">50%</meter>
+      <progress value="50" max="100">75%</progress>
+      <div>
+        <button type="submit">Guardar</button>
+        <button type="reset">Limpiar</button>
+        <button type="button">Inútil</button>
+      </div>
+    </form>
   </body>
 </html>
