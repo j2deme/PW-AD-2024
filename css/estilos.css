@@ -1,0 +1,33 @@
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+hr {
+  font-family: monospace;
+  background-color: #0074e8;
+  height: 2px;
+}
+
+h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  color: #0074e8;
+  background-color: #00cc99;
+  border: 1px solid #ff00ff;
+  box-shadow: 2px 2px 5px #ffff00;
+  text-shadow: 1px 1px 2px #ff3333;
+}
+
+h4 {
+  color: red;
+  background-color: #ff9428;
+  border-color: rgb(15, 80, 250);
+  box-shadow: 2px 2px 5px rgba(204, 2, 204, 0.5);
+  text-shadow: 1px 1px 2px rgba(4, 204, 24, 0.5);
+}
