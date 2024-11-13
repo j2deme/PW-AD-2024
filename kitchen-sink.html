@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>HTML5 Kitchen Sink</title>
     <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/estilos2.css" />
   </head>
 
@@ -93,15 +99,17 @@
             <del>deleted text</del> which often gets replaced with
             <ins>inserted</ins> text.
           </p>
-          <p>
-            You can also use <kbd>keyboard text</kbd>, which sometimes is styled
-            similarly to the <code>&lt;code&gt;</code> or
-            <samp>samp</samp> elements. Even more specifically, there is an
-            element just for <var>variables</var>. Not to be mistaken with block
-            quotes below, the quote element lets you denote something as
-            <q>quoted text</q>. Lastly don't forget the sub (H<sub>2</sub>O) and
-            sup (E = MC<sup>2</sup>) elements.
-          </p>
+          <div class="demo azul algo">
+            <p>
+              You can also use <kbd>keyboard text</kbd>, which sometimes is
+              styled similarly to the <code>&lt;code&gt;</code> or
+              <samp>samp</samp> elements. Even more specifically, there is an
+              element just for <var>variables</var>. Not to be mistaken with
+              block quotes below, the quote element lets you denote something as
+              <q>quoted text</q>. Lastly don't forget the sub (H<sub>2</sub>O)
+              and sup (E = MC<sup>2</sup>) elements.
+            </p>
+          </div>
           <section>
             <p>
               This paragraph is contained in a <code>section</code> element of
@@ -134,7 +142,7 @@
       <section id="phrasing">
         <header>
           <h3><a href="#phrasing">#</a> Phrasing</h3>
-          <p>
+          <p title="planeacion">
             Elements <code>abbr</code>, <code>b</code>, <code>bdi</code>,
             <code>bdo</code>, <code>br</code>, <code>cite</code>,
             <code>code</code>, <code>data</code>, <code>del</code>,
@@ -152,7 +160,8 @@
           <code>abbr</code>: Some vehicles meet the
           <abbr title="Super Ultra Low Emission Vehicle">SULEV</abbr>
           standard.<br />
-          <code>br</code> was used to make this sentence start on a new line.
+          <code title="planeta">br</code> was used to make this sentence start
+          on a new line.
         </p>
         <p>
           <code>bdi</code>: Some languages read right to left,
@@ -160,11 +169,11 @@
           <bdo dir="rtl">The normal direction has been overridden.</bdo>
         </p>
         <p>
-          <code>em</code> is used for <em>emphasis</em> and usually renders as
-          italics, contrast that with <code>i</code> which is used for alternate
-          voice or to offset from the normal (such as a phrase from a different
-          language or taxonomic designation): <i>E. coli</i> can be bad.
-          <code>strong</code> is used for
+          <code title="contemplan">em</code> is used for <em>emphasis</em> and
+          usually renders as italics, contrast that with <code>i</code> which is
+          used for alternate voice or to offset from the normal (such as a
+          phrase from a different language or taxonomic designation):
+          <i>E. coli</i> can be bad. <code>strong</code> is used for
           <strong>importance or urgency</strong> and usually renders as bold,
           contrast that with <code>b</code> which is used to
           <b>draw attention</b> without the semantic meaning of importance.
@@ -329,6 +338,7 @@
             <a href="http://placekitten.com/200/300/">placekitten.com</a>
           </figcaption>
         </figure>
+        <img src="assets/Imagen-PNG.png" alt="Imagen PNG" />
 
         <br />
         <hr />
@@ -1035,6 +1045,17 @@ is a sample content.</p>"
             >
           </p>
         </footer>
+      </section>
+      <section id="parrafos">
+        <p>Contenido 1</p>
+        <p>Contenido 2</p>
+        <p>Contenido 3</p>
+        <h2>Hola</h2>
+        <p>Contenido 4</p>
+        <p>Contenido 5</p>
+        <h2>Adiós</h2>
+        <p>Contenido 6</p>
+        <p>Contenido 7</p>
       </section>
     </main>
     <hr />

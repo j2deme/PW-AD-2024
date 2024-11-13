@@ -1,9 +1,11 @@
+/*
 * {
   color: #333333;
-}
+}*/
 
 h1 {
   color: #1000ff;
+  font-family: "Rubik Wet Paint", system-ui;
 }
 
 .verde {
@@ -34,4 +36,89 @@ input[type="text"]:focus {
 
 p::first-line {
   font-family: monospace;
+}
+
+/* Atributos */
+div[class~="azul"] {
+  color: blue !important;
+}
+
+html[lang|="es"] {
+  font-family: "Arial", sans-serif;
+}
+
+a[href^="https://"] {
+  color: orangered;
+}
+
+img[src$=".png"] {
+  border: 1px solid red;
+}
+
+[title*="plan"] {
+  color: green;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+button:active {
+  background-color: #0080ff;
+}
+
+input:focus {
+  background-color: #ff8000;
+}
+
+input:checked {
+  background-color: #ff0080;
+}
+
+input:disabled {
+  background-color: #808080;
+  color: white;
+}
+
+#parrafos p:first-child {
+  background-color: #ff0080;
+}
+
+#parrafos p:last-child {
+  background-color: #ff8000;
+}
+
+#parrafos p:nth-child(3) {
+  font-weight: bold;
+}
+
+#parrafos p:nth-child(even),
+#parrafos h2:nth-of-type(even) {
+  text-decoration: underline;
+}
+
+#parrafos p:nth-child(even)::first-letter {
+  font-size: 24px;
+}
+
+blockquote::before {
+  content: "Cita: ";
+  font-weight: bold;
+}
+
+blockquote::after {
+  content: "✨";
+  border: 1px solid #80ff00;
+}
+
+ul li::marker {
+  content: "🍔";
+}
+
+ul li ul li::marker {
+  content: "🍟";
+}
+
+ul li ul li ul li::marker {
+  content: "🥤";
 }
