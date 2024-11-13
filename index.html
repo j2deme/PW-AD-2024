@@ -8,37 +8,115 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <style>
+      body {
+        background: linear-gradient(135deg, #1d8de9, #1d42e9);
+      }
+      header {
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      }
+      footer p {
+        text-align: center;
+        color: rgb(253, 250, 250, 0.8);
+      }
+    </style>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <hgroup>
+              <h1>Prácticas de PW</h1>
+              <small>Dr. Jaime Jesús Delgado Meraz</small>
+            </hgroup>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="https://www.github.com/j2deme" target="_blank">
+              <i class="ph ph-github-logo"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com" target="_blank">
+              <i class="ph ph-google-logo"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="container">
-      <h1>Prácticas de Programación Web</h1>
-      <h2>Jaime Jesús Delgado Meraz</h2>
-      <h3>Docente</h3>
-      <p>
-        Visita mi <a href="https://www.github.com/j2deme" target="_blank">perfil de GitHub</a> para más información.
-      </p
-      <hr />
-      <a href="https://www.google.com" target="_blank">Ir a Google</a>
-      <hr />
       <article>
         <hgroup>
           <h2>Unidad 2</h2>
           <small>HTML y CSS</small>
         </hgroup>
         <h3>HTML</h3>
-        <ol>
-          <li><a href="textos.html">Textos</a>, uso de encabezados, párrafos y etiquetas de formato básico.</li>
+        <ul>
+          <li>
+            <a href="textos.html">Textos</a>, uso de encabezados, párrafos y
+            etiquetas de formato básico.
+          </li>
           <li><a href="tecnico.html">Texto técnico</a></li>
-          <li><a href="listas.html">Listas</a>, uso de listas ordenadas, de viñetas y lista de definición.</li>
+          <li>
+            <a href="listas.html">Listas</a>, uso de listas ordenadas, de
+            viñetas y lista de definición.
+          </li>
           <li><a href="tablas.html">Tablas</a></li>
           <li><a href="horario.html">Horario de clases</a></li>
-          <li><a href="objetos.html">Objetos multimedia</a>, uso de multimedia (imágenes, videos, audio) y aplicaciones embebidas.</li>
-        </ol>
+          <li>
+            <a href="objetos.html">Objetos multimedia</a>, uso de multimedia
+            (imágenes, videos, audio) y aplicaciones embebidas.
+          </li>
+          <li>
+            <a href="formularios.html">Formularios</a>, formularios y sus
+            componentes.
+          </li>
+        </ul>
         <h3>CSS</h3>
-        <ol start="7">
-          <li><a href="kitchen-sink.html">Kitchen Sink</a>, aplica CSS al catálogo de elementos HTML.</li>
-        </ol>
+        <ul>
+          <li>
+            <a href="kitchen-sink.html">Kitchen Sink</a>, aplica CSS al catálogo
+            de elementos HTML.
+          </li>
+        </ul>
+      </article>
+      <article>
+        <hgroup>
+          <h2>Unidad 3</h2>
+          <small>JavaScript</small>
+        </hgroup>
+        <ul>
+          <li>
+            <a href="javascript.html">JavaScript</a>, introducción a JavaScript.
+          </li>
+          <li>
+            <a href="dom.html">DOM</a>, uso de DOM para manipulación de
+            elementos HTML.
+          </li>
+          <li>
+            <a href="eventos.html">Eventos</a>, uso de eventos para manipulación
+            de elementos HTML.
+          </li>
+          <li>
+            <a href="objetos2.html">Objetos</a>, uso de los objetos globales de
+            JS.
+          </li>
+        </ul>
       </article>
     </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 J2deme.</p>
+      </div>
+    </footer>
   </body>
 </html>
