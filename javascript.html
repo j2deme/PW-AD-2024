@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo de Javascript</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <hgroup>
+        <h1
+          onmouseenter="style.color = 'red' "
+          onmouseleave="style.color = 'blue'"
+        >
+          Título cualquiera
+        </h1>
+        <small>Pasa el cursor sobre el encabezado</small>
+      </hgroup>
+      <p>Este es un párrafo dentro del demo de JS.</p>
+      <button onclick="alert('Hola, mundo!')">Abrir alerta</button>
+      <button onclick="preguntar()">Preguntar</button>
+      <p>Abre la consola de tu navegador para ver el uso de JavaScript.</p>
+      <ul>
+        <li>En Firefox: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd></li>
+        <li>En Chrome: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd></li>
+        <li>En Edge: <kbd>F12</kbd> y selecciona la pestaña "Consola"</li>
+        <li>En Safari: <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>C</kbd></li>
+      </ul>
+    </main>
+
+    <script>
+      console.log("Hola, mundo!");
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
