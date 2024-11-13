@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objetos de JS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css"
+    />
+    <script src="js/objetos2.js" defer></script>
+    <style>
+      ul {
+        height: 200px;
+        overflow-y: auto;
+      }
+      article nav {
+        display: flex;
+        justify-items: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <article>
+        <h1>Log</h1>
+        <p>
+          Demuestra el uso de <code>setTimeOut</code> y <code>setInterval</code>
+        </p>
+        <ul id="log"></ul>
+        <nav>
+          <button id="activaTimer">Nuevo timer</button>
+          <button id="pararRepetidor">Para repetidor</button>
+          <button id="reactivarRepetidor">Reactiva repetidor</button>
+        </nav>
+        <p>
+          Click <a id="lanzaPrompt" href="#">aquí</a> para mostrar el uso de
+          <code>prompt</code> y
+          <code>alert</code>
+        </p>
+      </article>
+      <article>
+        <h2>Modo seguro</h2>
+        <p>
+          Toma datos del objeto <code>location</code> y muestra si la conexión
+          es segura.
+        </p>
+        <p id="secure"></p>
+      </article>
+      <article>
+        <h2>Historial</h2>
+        <p>Muestra el historial de navegación del usuario.</p>
+        <p>
+          Visita alguno de los siguientes sitios para que se registren en el
+          historial y después regresa para observar que la cantidad de elementos
+          en el historial ha aumentado.
+        </p>
+        <nav>
+          <li>
+            <a href="https://www.google.com">Google</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com">YouTube</a>
+          </li>
+          <li>
+            <a href="https://www.github.com">GitHub</a>
+          </li>
+        </nav>
+        <ul id="historial"></ul>
+      </article>
+    </main>
+  </body>
+</html>
